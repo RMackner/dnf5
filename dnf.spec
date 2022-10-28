@@ -182,7 +182,8 @@ It supports RPM packages, modulemd modules, and comps groups & environments.
 %{_datadir}/bash-completion/completions/dnf5
 %license COPYING.md
 %license gpl-2.0.txt
-%{_mandir}/man8/dnf5.8.*
+%{_mandir}/man8/dnf5-8.*
+%{_mandir}/man7/dnf5-8.*
 
 # ========== libdnf5 ==========
 %package -n libdnf5

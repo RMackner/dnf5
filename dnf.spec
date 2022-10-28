@@ -493,7 +493,7 @@ Core DNF5 plugins that enhance dnf5 with builddep and changelog commands.
 # ========== unpack, build, check & install ==========
 
 %prep
-%autosetup -p1 -n dnf5-main -n dnf5-5.0.0-20221024090232.34.g630a7535
+%autosetup -p1 -n dnf5-main
 
 
 %build

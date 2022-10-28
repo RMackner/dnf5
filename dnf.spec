@@ -8,7 +8,7 @@ Release: 20221024090232.34.g630a7535%{?dist}
 Summary:        Command-line package manager
 License:        GPL-2.0-or-later
 URL:            https://github.com/rpm-software-management/dnf5
-Source0: dnf5-5.0.0-20221024090232.34.g630a7535.tar.xz
+Source0:        https://github.com/rpm-software-management/dnf5/archive/refs/heads/main.tar.gz
 
 Requires:       libdnf5%{?_isa} = %{version}-%{release}
 Requires:       dnf-data
@@ -493,7 +493,7 @@ Core DNF5 plugins that enhance dnf5 with builddep and changelog commands.
 # ========== unpack, build, check & install ==========
 
 %prep
-%autosetup -p1 -n dnf5-%{version} -n dnf5-5.0.0-20221024090232.34.g630a7535
+%autosetup -p1 -n dnf5-main -n dnf5-5.0.0-20221024090232.34.g630a7535
 
 
 %build

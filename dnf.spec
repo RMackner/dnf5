@@ -3,8 +3,8 @@
 %global project_version_patch 0
 
 Name:           dnf5
-Version: 5.0.0
-Release: 20221024090232.34.g630a7535%{?dist}
+Version:        5.0.0
+Release:        20221031.{?dist}
 Summary:        Command-line package manager
 License:        GPL-2.0-or-later
 URL:            https://github.com/rpm-software-management/dnf5
